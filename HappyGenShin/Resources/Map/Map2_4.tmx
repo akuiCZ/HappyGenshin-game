@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="70" tileheight="70" infinite="0" nextlayerid="11" nextobjectid="9">
+ <tileset firstgid="1" name="Map_desert" tilewidth="70" tileheight="70" tilecount="768" columns="48">
+  <image source="Image/Map_desert.png" width="3360" height="1120"/>
+ </tileset>
+ <layer id="1" name="bgLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyzYGRgsBjFo3iAMADTtCOh
+  </data>
+ </layer>
+ <layer id="10" name="keyLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpALGgXbAMAIAA8wAAg==
+  </data>
+ </layer>
+ <layer id="8" name="playerLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtACMA+2AIQIAA6gAAg==
+  </data>
+ </layer>
+ <layer id="9" name="exitLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4B0wEglcwACyAAC
+  </data>
+ </layer>
+ <layer id="2" name="walkLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyrZWJgqKUQYwO+TKgYG0DWL8cEwYQAsjps9vcx4taLLodNP7IbpJkgGJscsn5kN+HzgxyaX3HZjx4W2MTQ3U9M2KG7A1/8wfyOHgbY7KcEAwDePR1Z
+  </data>
+ </layer>
+ <objectgroup id="3" name="object0">
+  <object id="1" name="player" x="420" y="350" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="4" name="object1">
+  <object id="2" name="key" x="910" y="280" width="70" height="70"/>
+  <object id="3" name="exit" x="980" y="560" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="5" name="object2">
+  <object id="4" name="box_1" x="560" y="140" width="70" height="70"/>
+  <object id="5" name="box_2" x="700" y="350" width="70" height="70"/>
+  <object id="6" name="box_3" x="70" y="490" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="6" name="object3">
+  <object id="7" name="trap_1" x="350" y="210" width="70" height="70"/>
+  <object id="8" name="trap_0" x="140" y="210" width="70" height="70"/>
+ </objectgroup>
+ <layer id="7" name="bgLayer1" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhcII6RPLlRMDQBAGhJAL8=
+  </data>
+ </layer>
+</map>

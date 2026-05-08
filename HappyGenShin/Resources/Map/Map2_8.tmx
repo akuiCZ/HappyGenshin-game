@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.4" orientation="orthogonal" renderorder="right-down" width="16" height="10" tilewidth="70" tileheight="70" infinite="0" nextlayerid="11" nextobjectid="17">
+ <tileset firstgid="1" name="Map_desert" tilewidth="70" tileheight="70" tilecount="768" columns="48">
+  <image source="Image/Map_desert.png" width="3360" height="1120"/>
+ </tileset>
+ <layer id="1" name="bgLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJwzYmRgMBrFo3iAMAAb+B/h
+  </data>
+ </layer>
+ <layer id="10" name="keyLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF6IBxoB0wggAAA+wAAg==
+  </data>
+ </layer>
+ <layer id="8" name="playerLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBiZgHGgHTAKwAAABAgAAg==
+  </data>
+ </layer>
+ <layer id="9" name="exitLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFxADGgXbAMAUAA9gAAg==
+  </data>
+ </layer>
+ <layer id="2" name="walkLayer" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJz7xcDA8ItCjA34MqFibACffmIAun45HPYw4FAD01/LhCnXy4idDVMD0oNLP7rfkcMAm35K3Y8NVDBhZyMDbPrDgX7tYsTU380IkcOmHx1LANWvRcMSTNjVAgBDTDbS
+  </data>
+ </layer>
+ <layer id="3" name="bgLayer2" width="16" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBieIJYRO3skgCgs/o0mIQxeYFGLTYwaAABbuANG
+  </data>
+ </layer>
+ <objectgroup id="4" name="object0">
+  <object id="9" name="player" x="980" y="210" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="5" name="object1">
+  <object id="10" name="exit" x="700" y="280" width="70" height="70"/>
+  <object id="11" name="key" x="350" y="280" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="6" name="object2">
+  <object id="12" name="box_3" x="70" y="490" width="70" height="70"/>
+  <object id="13" name="box_2" x="560" y="420" width="70" height="70"/>
+  <object id="14" name="box_1" x="910" y="560" width="70" height="70"/>
+ </objectgroup>
+ <objectgroup id="7" name="object3">
+  <object id="15" name="trap_1" x="280" y="140" width="70" height="70"/>
+  <object id="16" name="trap_0" x="980" y="420" width="70" height="70"/>
+ </objectgroup>
+</map>
